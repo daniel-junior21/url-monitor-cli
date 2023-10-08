@@ -1,0 +1,22 @@
+{
+  "name": "url-monitor-cli",
+  "version": "1.0.0",
+  "description": "CLI Application to monitor URLs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "mocha src/test/",
+    "coverage": "nyc npm run test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0"
+  },
+  "dependencies": {
+    "axios": "^1.5.1",
+    "commander": "^11.0.0"
+  }
+}
